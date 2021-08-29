@@ -1,0 +1,37 @@
+body {
+    height: 100%;
+    background-image: url(https://wallpaperscave.ru/images/original/18/05-10/abstract-blue-50128.jpg);
+    color: white;
+}
+
+button {
+    background: rgb(83, 80, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+#wrapping {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background: rgb(83, 80, 255);
+    border-radius: 10px;
+}
+
+#title {
+    font-size: 48px;
+    font-family: "Roboto", monospace;
+}
+
+.timer {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    margin-bottom: 10px;
+}
