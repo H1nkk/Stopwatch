@@ -1,7 +1,7 @@
 body {
     height: 100%;
-    background-image: url(https://wallpaperscave.ru/images/original/18/05-10/abstract-blue-50128.jpg);
-    color: white;
+    background: linear-gradient(to top, rgb(37, 62, 129), rgb(81, 127, 255));
+    color: #fff;
 }
 
 button {
