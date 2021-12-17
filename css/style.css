@@ -42,5 +42,12 @@ button {
 }
 
 .clicked {
-    background: #fff;
+    background-color: #fff;
+}
+
+button:active {
+    color: rgb(83, 80, 255);
+    background-color: rgb(226, 226, 226);
+    border: solid 3px rgb(109, 106, 255);
+    outline: solid 1px rgba(0, 0 , 0 , 0.2);
 }

@@ -12,6 +12,10 @@ buttonStart.onclick = function() {
     Interval = setInterval(startTimer, 10);
 }
 
+function button_startOnClick() {
+    buttonStart.setAttribute("class","clicked")
+
+}
 buttonStop.onclick = function() {
     clearInterval(Interval);
 }
@@ -32,8 +36,8 @@ function startTimer() {
         appendTens.innerHTML = tens;
     }
     if (tens > 99) {
-        console.log("seconds");
         seconds++;
+        console.log("seconds");
         appendSeconds.innerHTML = "0" + seconds;
         tens = 0;
         appendTens.innerHTML = "0" + 0;
